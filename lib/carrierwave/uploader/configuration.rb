@@ -49,6 +49,7 @@ module CarrierWave
         add_config :fog_host
         add_config :fog_public
         add_config :fog_authenticated_url_expiration
+        add_config :fog_force_path_for_aws
 
         # Mounting
         add_config :ignore_integrity_errors
